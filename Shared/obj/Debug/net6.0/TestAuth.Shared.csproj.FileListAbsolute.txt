@@ -1,0 +1,12 @@
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/bin/Debug/net6.0/TestAuth.Shared.deps.json
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/bin/Debug/net6.0/TestAuth.Shared.dll
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/bin/Debug/net6.0/ref/TestAuth.Shared.dll
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/bin/Debug/net6.0/TestAuth.Shared.pdb
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/TestAuth.Shared.csproj.AssemblyReference.cache
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/TestAuth.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/TestAuth.Shared.AssemblyInfoInputs.cache
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/TestAuth.Shared.AssemblyInfo.cs
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/TestAuth.Shared.csproj.CoreCompileInputs.cache
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/TestAuth.Shared.dll
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/ref/TestAuth.Shared.dll
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/Debug/net6.0/TestAuth.Shared.pdb

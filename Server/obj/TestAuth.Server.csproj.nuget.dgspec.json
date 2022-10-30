@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/TestAuth.Server.csproj": {}
+  },
+  "projects": {
+    "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/TestAuth.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/TestAuth.Client.csproj",
+        "projectName": "TestAuth.Client",
+        "projectPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/TestAuth.Client.csproj",
+        "packagesPath": "/home/shumwe/.nuget/packages/",
+        "outputPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shumwe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/TestAuth.Shared.csproj": {
+                "projectPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/TestAuth.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.2, 6.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/TestAuth.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/TestAuth.Server.csproj",
+        "projectName": "TestAuth.Server",
+        "projectPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/TestAuth.Server.csproj",
+        "packagesPath": "/home/shumwe/.nuget/packages/",
+        "outputPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shumwe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/TestAuth.Client.csproj": {
+                "projectPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/TestAuth.Client.csproj"
+              },
+              "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/TestAuth.Shared.csproj": {
+                "projectPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/TestAuth.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/TestAuth.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/TestAuth.Shared.csproj",
+        "projectName": "TestAuth.Shared",
+        "projectPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/TestAuth.Shared.csproj",
+        "packagesPath": "/home/shumwe/.nuget/packages/",
+        "outputPath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shumwe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
