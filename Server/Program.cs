@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
+using TestAuth.Server.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<TestAuthContext>(
+    options => options.UseSqlite("filename=Data/Database/testauth.db")
+);
+
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

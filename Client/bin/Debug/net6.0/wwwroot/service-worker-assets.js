@@ -857,19 +857,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-LxCIKwM6V7kM6Zi9KCiFWyTXCf6vf1ZDWIGHzQutfHM=",
+      "hash": "sha256-Wdhl9Hu9rZMFy7xvH1XbM\/Yy4h8156S4B5Cze\/hesSg=",
       "url": "_framework\/TestAuth.Shared.dll"
     },
     {
-      "hash": "sha256-fZ6C7RrkVZ\/1tsd5VD3TsVXkGM9y4K3AX3\/9lAccEX4=",
+      "hash": "sha256-W3a5\/8EGnol7EfdyM8QckkepOHw\/rUVp+\/d2ESDLgBw=",
       "url": "_framework\/TestAuth.Shared.pdb"
     },
     {
-      "hash": "sha256-rzhhv\/6c0+RbRiyUo\/kbYy5NN9uZKbIEGOBD8BWHe5Q=",
+      "hash": "sha256-3\/slZIe9NxzNituWdyqnjzIJEnjkrE2bhV\/yad2FZjo=",
       "url": "_framework\/TestAuth.Client.dll"
     },
     {
-      "hash": "sha256-0iqdvvQPEiVWrSIb+SLhzpt7ld4ob\/5eDu2im3+GjJs=",
+      "hash": "sha256-ikaXWd3qbEyYSSmqaj43KbRy6dfdeV1DhFcWuxKiIAA=",
       "url": "_framework\/TestAuth.Client.pdb"
     },
     {
@@ -877,9 +877,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-CfVFBdoO9+ZGOzsQwXxKXXgNfudoB3wU0a1FG45qU\/0=",
+      "hash": "sha256-ldJK+l81BlgTn7oCUP0YcFwFUcBoX2aOe7WfH6Tyv+g=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "3x0APILh"
+  "version": "SJdN2qoN"
 };
