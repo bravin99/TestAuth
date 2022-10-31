@@ -21,6 +21,13 @@ namespace Server.Controllers
             _config = config;
         }
 
+        // [HttpGet("users")]
+        // public async Task<ActionResult<User[]>> GetUsers()
+        // {
+        //     var users = await _context.Users!.ToListAsync();
+        //     return Ok(users);
+        // }
+
         [HttpPost("register")]
         public async Task<ActionResult<string>> Register([FromBody]RegisterDto request)
         {
