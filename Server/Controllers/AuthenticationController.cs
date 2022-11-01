@@ -27,7 +27,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("users")]
-        [Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "User")]
         public async Task<ActionResult<User[]>> GetUsers()
         {
             var users = await _context.Users!.ToListAsync();

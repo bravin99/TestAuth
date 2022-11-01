@@ -200,14 +200,14 @@
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
       "TestAuth.Shared.dll": "sha256-Wdhl9Hu9rZMFy7xvH1XbM\/Yy4h8156S4B5Cze\/hesSg=",
-      "TestAuth.Client.dll": "sha256-OL1d37to2IxUZ3JqfB7HWD34lpvmEAjC+PhYpblQmdo="
+      "TestAuth.Client.dll": "sha256-U9h3ZfGkBDWg+8dGMlCOzgIgojnRl1OPcugmXaxz9PE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "TestAuth.Shared.pdb": "sha256-W3a5\/8EGnol7EfdyM8QckkepOHw\/rUVp+\/d2ESDLgBw=",
-      "TestAuth.Client.pdb": "sha256-gd1RG\/jlChyBWFQ5gq4n8I5B6\/FTZpqlsD8JAjIs\/5A="
+      "TestAuth.Client.pdb": "sha256-acVCyCBHsITX5oyiyhBjlvdI4MGsxdEiSJVAjzwMwq8="
     },
     "runtime": {
       "dotnet.6.0.2.iww3i7ugt3.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",

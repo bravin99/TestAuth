@@ -114,39 +114,6 @@
         }
       },
       {
-        "HashCode": 412236215,
-        "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Shared.ClaimsDisplay",
-        "AssemblyName": "TestAuth.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ClaimsDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Shared.ClaimsDisplay"
-        }
-      },
-      {
-        "HashCode": 1410731551,
-        "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Shared.ClaimsDisplay",
-        "AssemblyName": "TestAuth.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TestAuth.Client.Shared.ClaimsDisplay"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Shared.ClaimsDisplay",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1989039408,
         "Kind": "Components.Component",
         "Name": "TestAuth.Client.Shared.MainLayout",
@@ -276,6 +243,39 @@
         }
       },
       {
+        "HashCode": 412236215,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Shared.ClaimsDisplay",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ClaimsDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Shared.ClaimsDisplay"
+        }
+      },
+      {
+        "HashCode": 1410731551,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Shared.ClaimsDisplay",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TestAuth.Client.Shared.ClaimsDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Shared.ClaimsDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -96383235,
         "Kind": "Components.Component",
         "Name": "TestAuth.Client.Pages.Index",
@@ -371,6 +371,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "TestAuth.Client.Pages.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 849176773,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Pages.Register",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Register"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Pages.Register"
+        }
+      },
+      {
+        "HashCode": 648073933,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Pages.Register",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TestAuth.Client.Pages.Register"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Pages.Register",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15992,6 +16025,11 @@
   },
   "RootNamespace": "TestAuth.Client",
   "Documents": [
+    {
+      "FilePath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/Pages/Register.razor",
+      "TargetPath": "Pages\\Register.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",

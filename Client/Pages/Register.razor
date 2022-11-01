@@ -1,0 +1,65 @@
+@page "/register"
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+@using Microsoft.AspNetCore.Components.Authorization
+
+<PageTitle>Register</PageTitle>
+
+<div class="container">
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="row d-flex justify-content-center">
+            <div class="alert bg-info">
+                <p class="fw-bolder">@message</p>
+            </div>
+        </div>
+    }
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-8">
+            <EditForm Model="@User" OnValidSubmit="HandleRegister">
+                <DataAnnotationsValidator />
+                <div class="form-group mt-2">
+                    <label for="username" class="form-label">Username</label>
+                    <InputText type="text" id="username" @bind-Value="User.Username" class="form-control" required />
+                </div>
+                <div class="form-group mt-2">
+                    <label for="email" class="form-label">Email</label>
+                    <InputText type="email" id="email" @bind-Value="User.Email" class="form-control" required />
+                </div>
+                <div class="form-group mt-2">
+                    <label for="fname" class="form-label">First Name</label>
+                    <InputText type="text" id="fname" @bind-Value="User.FirstName" class="form-control" required />
+                </div>
+                <div class="form-group mt-2">
+                    <label for="lname" class="form-label">Last Name</label>
+                    <InputText type="text" id="lname" @bind-Value="User.LastName" class="form-control" required />
+                </div>
+                <div class="form-group mt-2">
+                    <label for="password" class="form-label">Password</label>
+                    <InputText type="password" id="password" @bind-Value="User.Password" class="form-control" required />
+                </div>
+                <div class="form-group mt-2">
+                    <label for="confirm-password" class="form-label">Confirm Password</label>
+                    <InputText type="password" id="confirm-password" @bind-Value="User.ConfirmPassword" class="form-control" required />
+                </div>
+                <div class="mb-3 mt-3">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    private RegisterDto User = new RegisterDto();
+    private string? message {get; set;}
+
+    async Task HandleRegister()
+    {
+        var result = await Http.PostAsJsonAsync("", User);
+        message = await result.Content.ReadAsStringAsync();
+
+        NavigationManager.NavigateTo("/login");
+    }
+}

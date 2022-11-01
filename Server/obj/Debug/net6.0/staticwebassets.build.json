@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mjbco64UvwHSxtFQQKalTKwp3kxwVqCIQuBc8m7whzc=",
+  "Hash": "Q7lvulw5A6G8zEmHGOyva3eeeQDNGHWegihJOk9LuTQ=",
   "Source": "TestAuth.Server",
   "BasePath": "_content/TestAuth.Server",
   "Mode": "Default",
@@ -28,6 +28,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/6.0.10/staticwebassets/AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/6.0.10/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/6.0.10/staticwebassets/AuthenticationService.js"
+    },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json",
       "SourceId": "TestAuth.Client",

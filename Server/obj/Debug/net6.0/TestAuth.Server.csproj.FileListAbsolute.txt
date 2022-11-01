@@ -88,3 +88,6 @@
 /home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.dll
 /home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
 /home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/bin/Debug/net6.0/Blazored.LocalStorage.dll
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Authorization.dll
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Server/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll

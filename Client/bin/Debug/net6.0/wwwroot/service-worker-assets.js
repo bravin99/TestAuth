@@ -877,11 +877,11 @@
       "url": "_framework\/TestAuth.Shared.pdb"
     },
     {
-      "hash": "sha256-DBAu9q8HeOHEzmIpzjz2N5nu4E6PDwWw6rZHv2VbFpA=",
+      "hash": "sha256-U9h3ZfGkBDWg+8dGMlCOzgIgojnRl1OPcugmXaxz9PE=",
       "url": "_framework\/TestAuth.Client.dll"
     },
     {
-      "hash": "sha256-6+Fc9QSY5zLOBTYY7+TrbWclH\/0RNE2VBKeEhVpBJDc=",
+      "hash": "sha256-acVCyCBHsITX5oyiyhBjlvdI4MGsxdEiSJVAjzwMwq8=",
       "url": "_framework\/TestAuth.Client.pdb"
     },
     {
@@ -889,7 +889,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-ac7D25\/4\/3VT98szVsVh1TJRx7OBNjcERHB2vsxxFHw=",
+      "hash": "sha256-OiDnDa8Esqdud4Amr2kKEDWmcRbnrKKwrIEgx5JEccw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -897,5 +897,5 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "iIOLi612"
+  "version": "iYSywXFd"
 };
