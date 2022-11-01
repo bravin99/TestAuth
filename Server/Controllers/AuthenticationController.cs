@@ -130,6 +130,7 @@ namespace Server.Controllers
             {
                 new Claim(ClaimTypes.Name, user.Username!),
                 new Claim(ClaimTypes.Role, user.Role.ToString()),
+                new Claim(ClaimTypes.Email, user.Email!)
             };
 
             var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(

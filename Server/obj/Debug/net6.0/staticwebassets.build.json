@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GwaHCmXLoJvVAoAY1RacjBrt+IYjvVFDOUQvW6dFEYo=",
+  "Hash": "Mjbco64UvwHSxtFQQKalTKwp3kxwVqCIQuBc8m7whzc=",
   "Source": "TestAuth.Server",
   "BasePath": "_content/TestAuth.Server",
   "Mode": "Default",
@@ -61,6 +61,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.2/build/net6.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/blazored.localstorage/4.2.0/lib/net6.0/Blazored.LocalStorage.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.2.iww3i7ugt3.js",
@@ -196,7 +213,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.authorization/6.0.2/lib/net6.0/Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.authorization/6.0.10/lib/net6.0/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.authorization/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
@@ -213,7 +247,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components/6.0.2/lib/net6.0/Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
@@ -230,7 +264,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.2/lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
@@ -247,7 +281,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.web/6.0.2/lib/net6.0/Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.web/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/6.0.10/lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -281,7 +332,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.metadata/6.0.2/lib/net6.0/Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.aspnetcore.metadata/6.0.10/lib/net6.0/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -417,7 +468,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/lib/net6.0/Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/lib/net6.0/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -485,7 +536,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.2/lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll",
@@ -553,7 +604,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.jsinterop/6.0.2/lib/net6.0/Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/microsoft.jsinterop/6.0.10/lib/net6.0/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
@@ -1522,7 +1573,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/.nuget/packages/system.io.pipelines/6.0.2/lib/net6.0/System.IO.Pipelines.dll"
+      "OriginalItemSpec": "/home/shumwe/.nuget/packages/system.io.pipelines/6.0.3/lib/net6.0/System.IO.Pipelines.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipes.AccessControl.dll",
@@ -3514,6 +3565,23 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Primitives.dll"
     },
     {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/0GNS63Lf.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/0OhuZd1g.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -3616,6 +3684,23 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.SecureString.dll"
     },
     {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/2sr+wvaW.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/31fSvvfe.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -3633,6 +3718,23 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.ZipFile.dll"
     },
     {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/3JBYPOtZ.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/3mfELH8J.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -3648,40 +3750,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.dll"
-    },
-    {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/3TBnoaaK.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/4pBkEFdF.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/4pUWFnWx.gz",
@@ -3973,23 +4041,6 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.Parallel.dll"
     },
     {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/B7+NbMxG.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/bItDgFZQ.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -4243,6 +4294,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Http.dll"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/DnEHb96S.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/DzH3wZEg.gz",
@@ -4840,23 +4908,6 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.dll"
     },
     {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/IbwEe1U4.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/IdbAbhIl.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -4959,23 +5010,6 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Primitives.dll"
     },
     {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/jd4gYfvZ.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/jfdW7vu3.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -5076,6 +5110,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XPath.dll"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/KMfNLDAw.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/KyYjCpaD.gz",
@@ -5435,23 +5486,6 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Metadata.dll"
     },
     {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/O+PWbkly.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/oNsmSanM.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -5486,6 +5520,23 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Contracts.dll"
     },
     {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/P8ZddfYX.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/PAZaUovG.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -5518,23 +5569,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.2.iww3i7ugt3.js"
-    },
-    {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/pH+Ozyc9.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/PhtMM0I7.gz",
@@ -5673,6 +5707,23 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.dll"
     },
     {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/q3VYKZi9.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/q6v6tUg6.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -5688,6 +5739,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Extensions.dll"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/QahN+TvX.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/qbnrXlE2.gz",
@@ -6081,23 +6149,6 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/TPbAWJmY.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll"
-    },
-    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/TReSFiWG.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -6147,6 +6198,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.TypeExtensions.dll"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/U+QKCBdX.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/U19tfNXe.gz",
@@ -6217,6 +6285,23 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.Primitives.dll"
     },
     {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/UsOw43yd.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/V+ayQaOd.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -6249,6 +6334,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Encoding.dll"
+    },
+    {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/vDg19RZ9.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/VhocLJxM.gz",
@@ -6557,6 +6659,23 @@
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/TestAuth.Client.pdb"
     },
     {
+      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/xHI9TXvF.gz",
+      "SourceId": "TestAuth.Client",
+      "SourceType": "Project",
+      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll"
+    },
+    {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/Xoz1YH+q.gz",
       "SourceId": "TestAuth.Client",
       "SourceType": "Project",
@@ -6742,23 +6861,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Expressions.dll"
-    },
-    {
-      "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/yUVDmdim.gz",
-      "SourceId": "TestAuth.Client",
-      "SourceType": "Project",
-      "ContentRoot": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/obj/Debug/net6.0/build-gz/yXcqguKo.gz",
