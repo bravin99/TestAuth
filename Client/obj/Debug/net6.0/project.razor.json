@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 111425587,
-        "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Shared.NavMenu",
-        "AssemblyName": "TestAuth.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -2021984135,
-        "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Shared.NavMenu",
-        "AssemblyName": "TestAuth.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TestAuth.Client.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -794415549,
         "Kind": "Components.Component",
         "Name": "TestAuth.Client.Shared.SurveyPrompt",
@@ -90,6 +57,92 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "TestAuth.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 926030442,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Shared.Loading",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Loading"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Message",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Message"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Shared.Loading"
+        }
+      },
+      {
+        "HashCode": -522505855,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Shared.Loading",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TestAuth.Client.Shared.Loading"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Message",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Message"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Shared.Loading",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 412236215,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Shared.ClaimsDisplay",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ClaimsDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Shared.ClaimsDisplay"
+        }
+      },
+      {
+        "HashCode": 1410731551,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.Shared.ClaimsDisplay",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TestAuth.Client.Shared.ClaimsDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.Shared.ClaimsDisplay",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -190,88 +243,68 @@
         }
       },
       {
-        "HashCode": 926030442,
+        "HashCode": 111425587,
         "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Shared.Loading",
+        "Name": "TestAuth.Client.Shared.NavMenu",
         "AssemblyName": "TestAuth.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Loading"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Message",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Message"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Shared.Loading"
+          "Common.TypeName": "TestAuth.Client.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -522505855,
+        "HashCode": -2021984135,
         "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Shared.Loading",
+        "Name": "TestAuth.Client.Shared.NavMenu",
         "AssemblyName": "TestAuth.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TestAuth.Client.Shared.Loading"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Message",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Message"
-            }
+            "TagName": "TestAuth.Client.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Shared.Loading",
+          "Common.TypeName": "TestAuth.Client.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -920030438,
+        "HashCode": -96383235,
         "Kind": "Components.Component",
-        "Name": "TestAuth.Client.App",
+        "Name": "TestAuth.Client.Pages.Index",
         "AssemblyName": "TestAuth.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.App"
+          "Common.TypeName": "TestAuth.Client.Pages.Index"
         }
       },
       {
-        "HashCode": -574677507,
+        "HashCode": 1658186999,
         "Kind": "Components.Component",
-        "Name": "TestAuth.Client.App",
+        "Name": "TestAuth.Client.Pages.Index",
         "AssemblyName": "TestAuth.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TestAuth.Client.App"
+            "TagName": "TestAuth.Client.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.App",
+          "Common.TypeName": "TestAuth.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -309,35 +342,68 @@
         }
       },
       {
-        "HashCode": -96383235,
+        "HashCode": -1310276296,
         "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Pages.Index",
+        "Name": "TestAuth.Client.Pages.Login",
         "AssemblyName": "TestAuth.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Pages.Index"
+          "Common.TypeName": "TestAuth.Client.Pages.Login"
         }
       },
       {
-        "HashCode": 1658186999,
+        "HashCode": -428074634,
         "Kind": "Components.Component",
-        "Name": "TestAuth.Client.Pages.Index",
+        "Name": "TestAuth.Client.Pages.Login",
         "AssemblyName": "TestAuth.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TestAuth.Client.Pages.Index"
+            "TagName": "TestAuth.Client.Pages.Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TestAuth.Client.Pages.Index",
+          "Common.TypeName": "TestAuth.Client.Pages.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -920030438,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.App",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.App"
+        }
+      },
+      {
+        "HashCode": -574677507,
+        "Kind": "Components.Component",
+        "Name": "TestAuth.Client.App",
+        "AssemblyName": "TestAuth.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TestAuth.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TestAuth.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15947,8 +16013,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/Pages/Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/Shared/Loading.razor",
       "TargetPath": "Shared\\Loading.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/shumwe/Desktop/C#/bravin99Projects/blazor/TestAuth/Client/Shared/ClaimsDisplay.razor",
+      "TargetPath": "Shared\\ClaimsDisplay.razor",
       "FileKind": "component"
     },
     {
