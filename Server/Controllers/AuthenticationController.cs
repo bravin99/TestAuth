@@ -9,7 +9,7 @@ using System.Security.Claims;
 // using System.IdentityModel.Tokens;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-// using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Server.Controllers
 {
@@ -27,6 +27,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("users")]
+        [Authorize]
         public async Task<ActionResult<User[]>> GetUsers()
         {
             var users = await _context.Users!.ToListAsync();
