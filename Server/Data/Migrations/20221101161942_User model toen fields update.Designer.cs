@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TestAuth.Server.Context;
 
@@ -10,9 +11,10 @@ using TestAuth.Server.Context;
 namespace TestAuth.Server.Data.Migrations
 {
     [DbContext(typeof(TestAuthContext))]
-    partial class TestAuthContextModelSnapshot : ModelSnapshot
+    [Migration("20221101161942_User model toen fields update")]
+    partial class Usermodeltoenfieldsupdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.10");

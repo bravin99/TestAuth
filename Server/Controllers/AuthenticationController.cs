@@ -5,6 +5,11 @@ using TestAuth.Shared.Models;
 using TestAuth.Server.Models;
 
 using System.Security.Cryptography;
+using System.Security.Claims;
+// using System.IdentityModel.Tokens;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+// using Microsoft.AspNetCore.Authorization;
 
 namespace Server.Controllers
 {
@@ -21,12 +26,12 @@ namespace Server.Controllers
             _config = config;
         }
 
-        // [HttpGet("users")]
-        // public async Task<ActionResult<User[]>> GetUsers()
-        // {
-        //     var users = await _context.Users!.ToListAsync();
-        //     return Ok(users);
-        // }
+        [HttpGet("users")]
+        public async Task<ActionResult<User[]>> GetUsers()
+        {
+            var users = await _context.Users!.ToListAsync();
+            return Ok(users);
+        }
 
         [HttpPost("register")]
         public async Task<ActionResult<string>> Register([FromBody]RegisterDto request)
@@ -57,6 +62,27 @@ namespace Server.Controllers
             return BadRequest("A problem occured while creating your account");
         }
 
+        [HttpPost("login")]
+        public async Task<ActionResult<string>> Login(LoginDto request)
+        {
+            if (request.Email == null && request.Password == null)
+                return BadRequest("Both fields are required. Please try again.");
+
+            var user = await _context.Users!.FirstOrDefaultAsync(u => u.Email == request.Email);
+
+            if (user == null)
+                return BadRequest($"User with email: {request.Email}, was not found.");
+            
+            if (!VerifyPasswordHash(request.Password!, user.PasswordHash!, user.PasswordSalt!))
+                return BadRequest("Wrong password");
+
+            var token = CreateToken(user);
+            var newRefreshToken = GenerateRefreshToken();
+            SetRefreshToken(user, newRefreshToken);
+
+            return Ok(token);
+        }
+
         private void CreatePassworHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
             using (var hmac = new HMACSHA512())
@@ -65,6 +91,68 @@ namespace Server.Controllers
                 passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
         }
+        
+        private bool VerifyPasswordHash(string password, [FromQuery]byte[] PasswordHash, [FromQuery]byte[] PasswordSalt)
+        {
+            using (var hmac = new HMACSHA512(PasswordSalt))
+            {
+                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                return computedHash.SequenceEqual(PasswordHash);
+            }
+        }
 
+        private string CreateToken(User user)
+        {
+            List<Claim> claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.Username!),
+                new Claim(ClaimTypes.Role, user.Role.ToString()),
+            };
+
+            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(
+                _config.GetSection("Jwt:Key").Value));
+
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
+            var token = new JwtSecurityToken(
+                claims: claims,
+                expires: DateTime.UtcNow.AddDays(1),
+                signingCredentials: creds
+            );
+
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+            
+            return jwt;
+        }
+
+        private JWT GenerateRefreshToken()
+        {
+            var refreshToken = new JWT
+            {
+                Key = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64)),
+                Issuer = _config.GetSection("Jwt:Issuer").Value,
+                Audience = _config.GetSection("Jwt:Audience").Value,
+                Expires = DateTime.UtcNow.AddMinutes(20)
+            };
+            // save token
+            _context.Tokens!.Add(refreshToken);
+            _context.SaveChanges();
+            
+            return refreshToken;
+        }
+
+        private void SetRefreshToken(User user, JWT refreshToken)
+        {
+            var cookieOptions = new CookieOptions
+            {
+                HttpOnly = true,
+                Expires = refreshToken.Expires
+            };
+
+            Response.Cookies.Append("refreshToken", refreshToken.Key!, cookieOptions);
+
+            user.RefreshToken = refreshToken.Key;
+            user.TokenExpires = refreshToken.Expires;
+            _context.SaveChanges();
+        }
     }
 }

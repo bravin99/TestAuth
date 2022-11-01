@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Filters;
 using TestAuth.Server.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +17,30 @@ builder.Services.AddDbContext<TestAuthContext>(
     options => options.UseSqlite("filename=Data/Database/testauth.db")
 );
 
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(
+    // options => {
+    //     options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+    //     {
+    //         Description = "Standard Authorization header using the Bearer scheme (\"bearer {token}\")",
+    //         In = ParameterLocation.Header,
+    //         Name = "Authorization",
+    //         Type = SecuritySchemeType.ApiKey
+    //     });
+    //     options.OperationFilter<SecurityRequirementsOperationFilter>();
+    // }
+);
+
+// builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
+//     options => {
+//         options.TokenValidationParameters = new TokenValidationParameters
+//         {
+//             ValidateIssuerSigningKey = true,
+//             IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(
+//                 builder.Configuration.GetSection("Jwt:Key").Value)),
+//             ValidateIssuer = false,
+//             ValidateAudience = false,
+//         };
+// });
 
 var app = builder.Build();
 

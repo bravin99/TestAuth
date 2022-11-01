@@ -13,7 +13,9 @@
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Design": "6.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.10",
+          "Microsoft.OpenApi": "1.4.3",
           "Swashbuckle.AspNetCore": "6.4.0",
+          "Swashbuckle.AspNetCore.Filters": "7.0.5",
           "TestAuth.Client": "1.0.0",
           "TestAuth.Shared": "1.0.0"
         },
@@ -396,11 +398,23 @@
           }
         }
       },
-      "Microsoft.OpenApi/1.2.3": {
+      "Microsoft.OpenApi/1.4.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "1.2.3.0",
-            "fileVersion": "1.2.3.0"
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.4.3.0"
+          }
+        }
+      },
+      "Scrutor/3.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyModel": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Scrutor.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.0"
           }
         }
       },
@@ -526,9 +540,32 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
         }
       },
+      "Swashbuckle.AspNetCore.Filters/7.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.1",
+          "Microsoft.OpenApi": "1.4.3",
+          "Scrutor": "3.3.0",
+          "Swashbuckle.AspNetCore.Filters.Abstractions": "7.0.5",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0"
+        },
+        "runtime": {
+          "lib/net5.0/Swashbuckle.AspNetCore.Filters.dll": {
+            "assemblyVersion": "7.0.5.0",
+            "fileVersion": "7.0.5.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Filters.Abstractions/7.0.5": {
+        "runtime": {
+          "lib/net5.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll": {
+            "assemblyVersion": "7.0.5.0",
+            "fileVersion": "7.0.5.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/6.4.0": {
         "dependencies": {
-          "Microsoft.OpenApi": "1.2.3"
+          "Microsoft.OpenApi": "1.4.3"
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
@@ -931,12 +968,19 @@
       "path": "microsoft.jsinterop.webassembly/6.0.2",
       "hashPath": "microsoft.jsinterop.webassembly.6.0.2.nupkg.sha512"
     },
-    "Microsoft.OpenApi/1.2.3": {
+    "Microsoft.OpenApi/1.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
-      "path": "microsoft.openapi/1.2.3",
-      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+      "sha512": "sha512-rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
+      "path": "microsoft.openapi/1.4.3",
+      "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
+    },
+    "Scrutor/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BwqCnFzp2/Z+pq17iztxlIkR/ZANyPRR4PdE57WL1w/JW4AM/2imoxBWTL3+G+YXA46ce4s9OUgwWqTXYrtI8A==",
+      "path": "scrutor/3.3.0",
+      "hashPath": "scrutor.3.3.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
       "type": "package",
@@ -972,6 +1016,20 @@
       "sha512": "sha512-eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "path": "swashbuckle.aspnetcore/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.6.4.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Filters/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AVvG44LqDjB765pVldSbRPpH6iTIo6xmyoZE9aP8FcREMMUj7WB1cSMF+bWtUCkeEVwVTr8iGDxLfrCS03uIuQ==",
+      "path": "swashbuckle.aspnetcore.filters/7.0.5",
+      "hashPath": "swashbuckle.aspnetcore.filters.7.0.5.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Filters.Abstractions/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iY3FK5URcNqdESPFDWL0YAe7X2sxZJj7YM5gTCIHvtu4d/h9NurhBLII96+obQghbJ7i45TVlPeYo4jb9WmVGg==",
+      "path": "swashbuckle.aspnetcore.filters.abstractions/7.0.5",
+      "hashPath": "swashbuckle.aspnetcore.filters.abstractions.7.0.5.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/6.4.0": {
       "type": "package",

@@ -27,6 +27,7 @@ namespace TestAuth.Server.Models
         [Required]
         public byte[]? PasswordSalt { get; set; }
         public string? RefreshToken { get; set; }
+        public DateTime TokenExpires { get; set; }
         public DateTime Joined { get; set; } = DateTime.UtcNow;
     }
 }
