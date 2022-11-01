@@ -154,7 +154,7 @@ namespace Server.Controllers
                 Key = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64)),
                 Issuer = _config.GetSection("Jwt:Issuer").Value,
                 Audience = _config.GetSection("Jwt:Audience").Value,
-                Expires = DateTime.UtcNow.AddMinutes(20)
+                Expires = DateTime.UtcNow.AddDays(1)
             };
             // save token
             _context.Tokens!.Add(refreshToken);
