@@ -27,7 +27,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("users")]
-        [Authorize]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult<User[]>> GetUsers()
         {
             var users = await _context.Users!.ToListAsync();
@@ -78,6 +78,28 @@ namespace Server.Controllers
                 return BadRequest("Wrong password");
 
             var token = CreateToken(user);
+            var refreshToken = GenerateRefreshToken();
+            SetRefreshToken(user, refreshToken);
+
+            return Ok(token);
+        }
+
+        [HttpPost("refresh-token")]
+        public async Task<ActionResult<string>> RefreshToken([FromQuery]string username)
+        {
+            var user = await _context.Users!.FirstOrDefaultAsync(u => u.Username == username);
+
+            if (user == null)
+                return NotFound($"User {username} was not found");
+
+            var refreshToken = Request.Cookies["refreshToken"];
+
+            if (!user.RefreshToken!.Equals(refreshToken))
+                return Unauthorized("Invalid request token");
+            else if (user.TokenExpires < DateTime.Now)
+                return Unauthorized("Token Expired");
+
+            string token = CreateToken(user);
             var newRefreshToken = GenerateRefreshToken();
             SetRefreshToken(user, newRefreshToken);
 
